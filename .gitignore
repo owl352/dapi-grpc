@@ -1,2 +1,4 @@
 src/core/*/
 src/platform/*/
+.idea/*
+.idea
