@@ -45,7 +45,7 @@
   },
   "homepage": "https://github.com/dashevo/dapi-grpc#readme",
   "dependencies": {
-    "@dashevo/grpc-common": "workspace:*",
+    "@dashevo/grpc-common": "^1.4.1",
     "@dashevo/protobufjs": "6.10.5",
     "@grpc/grpc-js": "1.4.4",
     "@improbable-eng/grpc-web": "^0.15.0",
