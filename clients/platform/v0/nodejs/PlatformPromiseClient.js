@@ -196,6 +196,10 @@ class PlatformPromiseClient {
       this.client.getIdentityBalance.bind(this.client),
     );
 
+    this.client.getContestedResourceVoteState = promisify(
+      this.client.getContestedResourceVoteState.bind(this.client)
+    )
+
     this.protocolVersion = undefined;
   }
 
