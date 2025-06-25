@@ -5,34 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c95ee2a9-e7fd-4385-b885-7e33b43a3e09" name="Changes" comment="update">
-      <change afterPath="$PROJECT_DIR$/clients/drive/v0/nodejs/DrivePromiseClient.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/drive/v0/nodejs/drive_pbjs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/drive/v0/nodejs/drive_protoc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/drive/v0/web/drive_pb.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/drive/v0/web/drive_pb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/drive/v0/web/drive_pb_service.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/clients/drive/v0/web/drive_pb_service.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/protos/drive/v0/drive.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.rs" beforeDir="false" afterPath="$PROJECT_DIR$/build.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/platform/v0/java/org/dash/platform/dapi/v0/PlatformGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/java/org/dash/platform/dapi/v0/PlatformGrpc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/platform/v0/nodejs/PlatformPromiseClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/nodejs/PlatformPromiseClient.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/platform/v0/nodejs/platform_pbjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/nodejs/platform_pbjs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/platform/v0/nodejs/platform_protoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/nodejs/platform_protoc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbobjc.h" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbobjc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbobjc.m" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbobjc.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbrpc.h" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbrpc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbrpc.m" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbrpc.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/platform/v0/python/platform_pb2.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/python/platform_pb2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/platform/v0/python/platform_pb2_grpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/python/platform_pb2_grpc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb_service.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb_service.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb_service.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb_service.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/protos/platform/v0/platform.proto" beforeDir="false" afterPath="$PROJECT_DIR$/protos/platform/v0/platform.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +91,7 @@
       <workItem from="1741378860686" duration="1002000" />
       <workItem from="1741386197944" duration="1553000" />
       <workItem from="1741390239854" duration="636000" />
-      <workItem from="1750812079367" duration="1621000" />
+      <workItem from="1750812079367" duration="3041000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -208,7 +181,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741390287656</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="update">
+      <option name="closed" value="true" />
+      <created>1750814366574</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1750814366574</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

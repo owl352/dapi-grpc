@@ -450,39 +450,6 @@ $root.org = (function() {
                          */
 
                         /**
-                         * Callback as used by {@link org.dash.platform.dapi.v0.Platform#getProofs}.
-                         * @memberof org.dash.platform.dapi.v0.Platform
-                         * @typedef getProofsCallback
-                         * @type {function}
-                         * @param {Error|null} error Error, if any
-                         * @param {org.dash.platform.dapi.v0.GetProofsResponse} [response] GetProofsResponse
-                         */
-
-                        /**
-                         * Calls getProofs.
-                         * @function getProofs
-                         * @memberof org.dash.platform.dapi.v0.Platform
-                         * @instance
-                         * @param {org.dash.platform.dapi.v0.IGetProofsRequest} request GetProofsRequest message or plain object
-                         * @param {org.dash.platform.dapi.v0.Platform.getProofsCallback} callback Node-style callback called with the error, if any, and GetProofsResponse
-                         * @returns {undefined}
-                         * @variation 1
-                         */
-                        Object.defineProperty(Platform.prototype.getProofs = function getProofs(request, callback) {
-                            return this.rpcCall(getProofs, $root.org.dash.platform.dapi.v0.GetProofsRequest, $root.org.dash.platform.dapi.v0.GetProofsResponse, request, callback);
-                        }, "name", { value: "getProofs" });
-
-                        /**
-                         * Calls getProofs.
-                         * @function getProofs
-                         * @memberof org.dash.platform.dapi.v0.Platform
-                         * @instance
-                         * @param {org.dash.platform.dapi.v0.IGetProofsRequest} request GetProofsRequest message or plain object
-                         * @returns {Promise<org.dash.platform.dapi.v0.GetProofsResponse>} Promise
-                         * @variation 2
-                         */
-
-                        /**
                          * Callback as used by {@link org.dash.platform.dapi.v0.Platform#getDataContract}.
                          * @memberof org.dash.platform.dapi.v0.Platform
                          * @typedef getDataContractCallback
