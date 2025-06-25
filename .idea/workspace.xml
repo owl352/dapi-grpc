@@ -4,8 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c95ee2a9-e7fd-4385-b885-7e33b43a3e09" name="Changes" comment="fix">
+    <list default="true" id="c95ee2a9-e7fd-4385-b885-7e33b43a3e09" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/clients/drive/v0/nodejs/DrivePromiseClient.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/drive/v0/nodejs/drive_pbjs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/drive/v0/nodejs/drive_protoc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/drive/v0/web/drive_pb.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/drive/v0/web/drive_pb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/drive/v0/web/drive_pb_service.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/clients/drive/v0/web/drive_pb_service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/protos/drive/v0/drive.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.rs" beforeDir="false" afterPath="$PROJECT_DIR$/build.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/platform/v0/java/org/dash/platform/dapi/v0/PlatformGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/java/org/dash/platform/dapi/v0/PlatformGrpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/platform/v0/nodejs/PlatformPromiseClient.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/nodejs/PlatformPromiseClient.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/platform/v0/nodejs/platform_pbjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/nodejs/platform_pbjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/platform/v0/nodejs/platform_protoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/nodejs/platform_protoc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbobjc.h" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbobjc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbobjc.m" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbobjc.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbrpc.h" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbrpc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbrpc.m" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/objective-c/Platform.pbrpc.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/platform/v0/python/platform_pb2.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/python/platform_pb2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/platform/v0/python/platform_pb2_grpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/python/platform_pb2_grpc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb_service.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb_service.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb_service.js" beforeDir="false" afterPath="$PROJECT_DIR$/clients/platform/v0/web/platform_pb_service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/protos/platform/v0/platform.proto" beforeDir="false" afterPath="$PROJECT_DIR$/protos/platform/v0/platform.proto" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +40,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -21,35 +53,38 @@
     &quot;assignee&quot;: &quot;owl352&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/owl352/dapi-grpc.git&quot;,
-    &quot;accountId&quot;: &quot;8be779cb-d11b-4ec9-a46c-c7b4200a6e83&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/owl352/dapi-grpc.git",
+    "accountId": "774d37ec-9f8c-4aed-87f5-16e8bde941d2"
   }
-}</component>
+}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
   <component name="ProjectId" id="2lbs1YWF5pmyX4I5wyT9SFC3O4J" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bebra/Documents/Dash/owl352/client/dapi-grpc&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "experimental",
+    "last_opened_file_path": "/Users/bebra/Documents/Dash/owl352/client/dapi-grpc",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -58,7 +93,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
       </set>
     </attachedChunks>
   </component>
@@ -75,7 +110,15 @@
       <workItem from="1725460868923" duration="328000" />
       <workItem from="1725461653243" duration="289000" />
       <workItem from="1725462250522" duration="632000" />
-      <workItem from="1730463284411" duration="743000" />
+      <workItem from="1730463284411" duration="904000" />
+      <workItem from="1730465276088" duration="700000" />
+      <workItem from="1733936249164" duration="330000" />
+      <workItem from="1733956319722" duration="261000" />
+      <workItem from="1734176039133" duration="637000" />
+      <workItem from="1741378860686" duration="1002000" />
+      <workItem from="1741386197944" duration="1553000" />
+      <workItem from="1741390239854" duration="636000" />
+      <workItem from="1750812079367" duration="1621000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -109,7 +152,63 @@
       <option name="project" value="LOCAL" />
       <updated>1725462273949</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update">
+      <option name="closed" value="true" />
+      <created>1730464632988</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1730464632988</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update">
+      <option name="closed" value="true" />
+      <created>1730466303894</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730466303894</updated>
+    </task>
+    <task id="LOCAL-00007" summary="update">
+      <option name="closed" value="true" />
+      <created>1733936522615</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733936522615</updated>
+    </task>
+    <task id="LOCAL-00008" summary="update">
+      <option name="closed" value="true" />
+      <created>1741379870662</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1741379870662</updated>
+    </task>
+    <task id="LOCAL-00009" summary="update">
+      <option name="closed" value="true" />
+      <created>1741387829118</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1741387829118</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <option name="closed" value="true" />
+      <created>1741387921635</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1741387921635</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update">
+      <option name="closed" value="true" />
+      <created>1741390287656</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1741390287656</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,8 +226,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="initial commit" />
     <MESSAGE value="fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
 </project>

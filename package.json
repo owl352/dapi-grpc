@@ -1,6 +1,6 @@
 {
   "name": "@dashevo/dapi-grpc",
-  "version": "1.8.0",
+  "version": "2.0.0-rc.14",
   "description": "DAPI GRPC definition file and generated clients",
   "browser": "browser.js",
   "main": "node.js",
@@ -63,5 +63,6 @@
     "mocha-sinon": "^2.1.2",
     "sinon": "^17.0.1",
     "sinon-chai": "^3.7.0"
-  }
+  },
+  "packageManager": "yarn@4.2.2+sha224.1e50daf19e5e249a025569752c60b88005fddf57d10fcde5fc68b88f"
 }
