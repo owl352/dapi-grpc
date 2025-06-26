@@ -171,10 +171,6 @@ class PlatformPromiseClient {
       this.client.getProtocolVersionUpgradeState.bind(this.client),
     );
 
-    this.client.getProofs = promisify(
-      this.client.getProofs.bind(this.client),
-    );
-
     this.client.getIdentityContractNonce = promisify(
       this.client.getIdentityContractNonce.bind(this.client),
     );
