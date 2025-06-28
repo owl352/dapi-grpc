@@ -68,6 +68,8 @@ const {
             GetContestedResourceVoteStateResponse: PBJSGetContestedResourceVoteStateResponse,
             GetTokenTotalSupplyRequest: PBJSGetTokenTotalSupplyRequest,
             GetTokenTotalSupplyResponse: PBJSGetTokenTotalSupplyResponse,
+            GetTokenContractInfoRequest: PBJSGetTokenContractInfoRequest,
+            GetTokenContractInfoResponse: PBJSGetTokenContractInfoResponse,
           },
         },
       },
@@ -97,6 +99,7 @@ const {
   GetIdentityBalanceResponse: ProtocGetIdentityBalanceResponse,
   GetContestedResourceVoteStateResponse: ProtocGetContestedResourceVoteStateResponse,
   GetTokenTotalSupplyResponse: ProtocGetTokenTotalSupplyResponse,
+  GetTokenContractInfoResponse: ProtocGetTokenContractInfoResponse,
 } = require('./platform_protoc');
 
 const getPlatformDefinition = require('../../../../lib/getPlatformDefinition');
@@ -201,6 +204,10 @@ class PlatformPromiseClient {
 
     this.client.getTokenTotalSupply = promisify(
       this.client.getTokenTotalSupply.bind(this.client)
+    )
+
+    this.client.getTokenContractInfo = promisify(
+      this.client.getTokenContractInfo.bind(this.client)
     )
 
     this.protocolVersion = undefined;
@@ -858,6 +865,35 @@ class PlatformPromiseClient {
             ),
             protobufToJsonFactory(
               PBJSGetTokenTotalSupplyRequest
+            ),
+          ),
+        ],
+        ...options,
+      },
+    );
+  }
+
+  getTokenContractInfo(
+    getTokenContractInfoRequest,
+    metadata = {},
+    options = {},
+  ) {
+    if (!isObject(metadata)) {
+      throw new Error('metadata must be an object');
+    }
+
+    return this.client.getTokenContractInfo(
+      getTokenContractInfoRequest,
+      convertObjectToMetadata(metadata),
+      {
+        interceptors: [
+          jsonToProtobufInterceptorFactory(
+            jsonToProtobufFactory(
+              ProtocGetTokenContractInfoResponse,
+              PBJSGetTokenContractInfoResponse,
+            ),
+            protobufToJsonFactory(
+              PBJSGetTokenContractInfoRequest
             ),
           ),
         ],
