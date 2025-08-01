@@ -70,6 +70,8 @@ const {
             GetTokenTotalSupplyResponse: PBJSGetTokenTotalSupplyResponse,
             GetTokenContractInfoRequest: PBJSGetTokenContractInfoRequest,
             GetTokenContractInfoResponse: PBJSGetTokenContractInfoResponse,
+            GetIdentityTokenBalancesRequest: PBJSGetIdentityTokenBalancesRequest,
+            GetIdentityTokenBalancesResponse: PBJSGetIdentityTokenBalancesResponse
           },
         },
       },
@@ -100,9 +102,11 @@ const {
   GetContestedResourceVoteStateResponse: ProtocGetContestedResourceVoteStateResponse,
   GetTokenTotalSupplyResponse: ProtocGetTokenTotalSupplyResponse,
   GetTokenContractInfoResponse: ProtocGetTokenContractInfoResponse,
+  GetIdentityTokenBalancesResponse: ProtocGetIdentityTokenBalancesResponse
 } = require('./platform_protoc');
 
 const getPlatformDefinition = require('../../../../lib/getPlatformDefinition');
+const {GetIdentityTokenBalancesRequest} = require("../web/platform_pb");
 
 const PlatformNodeJSClient = getPlatformDefinition(0);
 
@@ -208,6 +212,10 @@ class PlatformPromiseClient {
 
     this.client.getTokenContractInfo = promisify(
       this.client.getTokenContractInfo.bind(this.client)
+    )
+
+    this.client.getIdentityTokenBalances = promisify(
+      this.client.getIdentityTokenBalances.bind(this.client)
     )
 
     this.protocolVersion = undefined;
@@ -894,6 +902,35 @@ class PlatformPromiseClient {
             ),
             protobufToJsonFactory(
               PBJSGetTokenContractInfoRequest
+            ),
+          ),
+        ],
+        ...options,
+      },
+    );
+  }
+
+  getIdentityTokenBalances(
+    getIdentityTokenBalancesRequest,
+    metadata = {},
+    options = {},
+  ) {
+    if (!isObject(metadata)) {
+      throw new Error('metadata must be an object');
+    }
+
+    return this.client.getIdentityTokenBalances(
+      getIdentityTokenBalancesRequest,
+      convertObjectToMetadata(metadata),
+      {
+        interceptors: [
+          jsonToProtobufInterceptorFactory(
+            jsonToProtobufFactory(
+              ProtocGetIdentityTokenBalancesResponse,
+              PBJSGetIdentityTokenBalancesResponse,
+            ),
+            protobufToJsonFactory(
+              PBJSGetIdentityTokenBalancesRequest
             ),
           ),
         ],
